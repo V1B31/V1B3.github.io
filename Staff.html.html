@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta name="Viewport" content="with=device-width, initial-scale=1.0">
+<title> V1B3 Community </title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <a href="index.html">  <img src="logo.jpg"> </a>
+          <div class="Nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="HideMenu()"></i>
+              <ul>
+                <li><a href="Intro.html.html"> Introduction </a> </li>
+                <li><a href="News.html.html"> News </a> </li>
+                <li><a href="Staff.html.html"> Staff Team </a> </li>
+                <li><a href="Contact.html.html"> Contact Info </a> </li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Staff Info </h1>
+        </div>
+
+    </section>
+
+
+<section class="StaffTeam">
+    <h1> Staff Team Info</h1>
+    <p> 1. Owner:- V1B3<br>
+        2. Admins:- None<br>
+        3. Moderator:- None<br>
+        4. YT:- C0L0NY , V1B3</p>
+</section>
+
+<script>
+
+     var navLinks = document.getElementById("navLinks")
+     function ShowMenu(){
+         navLinks.style.right= "0";
+     }
+     function HideMenu(){
+         navLinks.style.right= "-200px";
+     }
+
+</script>
+</body>
+</html>

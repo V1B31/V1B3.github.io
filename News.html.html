@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta name="Viewport" content="with=device-width, initial-scale=1.0">
+<title> V1B3 Community </title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <a href="index.html">  <img src="logo.jpg"> </a>
+          <div class="Nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="HideMenu()"></i>
+              <ul>
+                <li><a href="Intro.html.html"> Introduction </a> </li>
+                <li><a href="News.html.html"> News </a> </li>
+                <li><a href="Staff.html.html"> Staff Team </a> </li>
+                <li><a href="Contact.html.html"> Contact Info </a> </li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="News">
+     <h1> Daily News </h1>
+     </div>
+    </section>
+
+<section class="News">
+    <h1> Daily News </h1>
+    <p> 1. Our Discord Server Crossed 100+ Members<br>
+    2. New SFA Permanent Minecraft Account Giveaway At 150+ Members<br>
+    3. Credt Card Giveaways Starting Soon<br>
+    4. Hosting Minecraft Bedwars Event In April<br>
+    5. Owo Shop Opened For Lifetime </p>
+</section>
+
+<script>
+
+     var navLinks = document.getElementById("navLinks")
+     function ShowMenu(){
+         navLinks.style.right= "0";
+     }
+     function HideMenu(){
+         navLinks.style.right= "-200px";
+     }
+
+</script>
+</body>
+</html>
